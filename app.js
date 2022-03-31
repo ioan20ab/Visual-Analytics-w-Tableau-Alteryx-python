@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/Formula1Telemetry/Dashboard1?:lang
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1000,
-    width: 1200,
+    height: 1280,
+    width: 1920,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
