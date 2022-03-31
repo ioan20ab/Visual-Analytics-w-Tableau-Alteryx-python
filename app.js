@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/TelemetryF1_16487609759020/Dashboa
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: 1280,
-    width: 3000,
+    height: 1000,
+    width: 1200,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
