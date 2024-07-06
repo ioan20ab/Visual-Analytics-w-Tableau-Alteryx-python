@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter />
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>*.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="LapNumber" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="SessionTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="LapTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Driver" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Sector1Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Sector2Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Sector3Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Sector" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="RPM" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Speed" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="nGear" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Throttle" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Brake" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="DRS" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Compound" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="TyreLife" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="FreshTyre" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="DriverAhead" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="DistanceToDriverAhead" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="RelativeDistance" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="X" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Y" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Z" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Source" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Session" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+            <Field name="Year" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\All Together\*.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="330" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\Tableau_Final.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tableau_Final.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>All_Together</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

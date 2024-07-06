@@ -1,0 +1,2243 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Italian Grand Prix_practice_1_laps_summary_data_HAM.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="DriverNumber" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="LapTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="LapNumber" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Stint" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="PitOutTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="PitInTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Sector1Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Sector2Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Sector3Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Sector1SessionTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Sector2SessionTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Sector3SessionTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="SpeedI1" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="SpeedI2" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="SpeedFL" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="SpeedST" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Compound" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="TyreLife" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="FreshTyre" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="LapStartTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Team" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="Driver" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="TrackStatus" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="IsAccurate" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="LapStartDate" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\session laps summary\Italian Grand Prix_practice_1_laps_summary_data_HAM.csv" type="V_String" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="870" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="SessionTime" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="DriverAhead" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="DistanceToDriverAhead" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Time" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="RPM" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Speed" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="nGear" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Throttle" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Brake" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="DRS" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Source" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Distance" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="RelativeDistance" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="X" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Y" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Z" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+            <Field name="Driver1" size="254" source="File: E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_Fastest_Laps_Telemetry\Italian Grand Prix_practice_1_fastest_lap_telemetry_data_HAM.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="282" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Field_1" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="True" />
+            <SelectField field="SessionTime" selected="True" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="378" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="DriverNumber" selected="False" />
+            <SelectField field="LapStartTime" selected="True" />
+            <SelectField field="LapTime" selected="True" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="Stint" selected="False" />
+            <SelectField field="PitOutTime" selected="False" />
+            <SelectField field="PitInTime" selected="False" />
+            <SelectField field="Sector1Time" selected="True" />
+            <SelectField field="Sector2Time" selected="True" />
+            <SelectField field="Sector3Time" selected="True" />
+            <SelectField field="Sector1SessionTime" selected="True" />
+            <SelectField field="Sector2SessionTime" selected="True" />
+            <SelectField field="Sector3SessionTime" selected="True" />
+            <SelectField field="SpeedI1" selected="False" />
+            <SelectField field="SpeedI2" selected="False" />
+            <SelectField field="SpeedFL" selected="False" />
+            <SelectField field="SpeedST" selected="False" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="Team" selected="False" />
+            <SelectField field="Driver" selected="False" />
+            <SelectField field="TrackStatus" selected="False" />
+            <SelectField field="IsAccurate" selected="False" />
+            <SelectField field="LapStartDate" selected="False" />
+            <SelectField field="FileName" selected="False" />
+            <SelectField field="FileName2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([LapStartTime],'0 day')" field="LapStartTime" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[LapStartTime = trimleft([LapStartTime],'0 day')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([LapStartTime],&quot;s :&quot;)" field="LapStartTime" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[LapStartTime = trimleft([LapStartTime],"s :")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([SessionTime],'0 day')" field="SessionTime" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[SessionTime = trimleft([SessionTime],'0 day')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="582" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([SessionTime],&quot;s :&quot;)" field="SessionTime" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[SessionTime = trimleft([SessionTime],"s :")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="SessionTime1" selected="False" rename="Hours" />
+            <SelectField field="SessionTime2" selected="False" rename="Minutes" />
+            <SelectField field="SessionTime3" selected="False" rename="Seconds" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Time" selected="False" />
+            <SelectField field="LapTime" selected="True" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="Sector1Time" selected="True" />
+            <SelectField field="Sector2Time" selected="True" />
+            <SelectField field="Sector3Time" selected="True" />
+            <SelectField field="LapStartTime" selected="True" />
+            <SelectField field="Sector1SessionTime" selected="False" />
+            <SelectField field="Sector2SessionTime" selected="False" />
+            <SelectField field="Sector3SessionTime" selected="False" />
+            <SelectField field="LapStartTime1" selected="False" rename="Hours" />
+            <SelectField field="LapStartTime2" selected="False" rename="Minutes" />
+            <SelectField field="LapStartTime3" selected="False" rename="Seconds" />
+            <SelectField field="SessionTime1" selected="False" rename="Hours" type="V_String" size="0" />
+            <SelectField field="SessionTime2" selected="False" rename="Minutes" type="V_String" size="0" />
+            <SelectField field="SessionTime3" selected="False" rename="Seconds" type="V_String" size="0" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="954" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="LapStartTime" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="SessionTime" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_LapNumber" selected="True" type="Int32" size="4" />
+                <SelectField field="Input_#2_Hours" selected="True" rename="Hours_S" />
+                <SelectField field="Input_#2_Minutes" selected="True" rename="Minutes_S" />
+                <SelectField field="Input_#2_Seconds" selected="True" rename="Seconds_S" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1038" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>LapNumber</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([LapNumber]) THEN [Row-1:LapNumber]
+ELSE [LapNumber]
+ENDIF 
+
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([LapNumber]) THEN [Row-1:LapNumber]
+ELSE [LapNumber...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="978" y="54" width="156" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>We have identified which lap of the session is the fastest</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2802" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sector2Time" selected="False" />
+            <SelectField field="Sector3Time" selected="False" />
+            <SelectField field="Sector2SessionTime" selected="False" />
+            <SelectField field="Sector3SessionTime" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="846" y="54" width="108" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Filtering to keep data only from the fastest lap (Lap 20)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2802" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sector1Time" selected="False" />
+            <SelectField field="Sector3Time" selected="False" />
+            <SelectField field="Sector1SessionTime" selected="False" />
+            <SelectField field="Sector3SessionTime" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2802" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Sector1Time" selected="False" />
+            <SelectField field="Sector2Time" selected="False" />
+            <SelectField field="Sector1SessionTime" selected="False" />
+            <SelectField field="Sector2SessionTime" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="3186" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Sector1Time</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Sector1Time</RootName>
+          <Delimeters value=":" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="3186" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Sector2Time</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Sector2Time</RootName>
+          <Delimeters value=":" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="3186" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Sector3Time</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Sector3Time</RootName>
+          <Delimeters value=":" />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3306" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LapTime" selected="True" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="Sector1SessionTime" selected="False" />
+            <SelectField field="Sector1SessionTime1" selected="False" rename="S1_Hours" type="Int32" size="4" />
+            <SelectField field="Sector1SessionTime2" selected="False" rename="S1_Minutes" type="Int32" size="4" />
+            <SelectField field="Sector1SessionTime3" selected="False" rename="S1_Seconds" type="Int32" size="4" />
+            <SelectField field="SessionTime" selected="True" />
+            <SelectField field="Hours_S" selected="False" type="Int32" size="4" />
+            <SelectField field="Minutes_S" selected="False" type="Int32" size="4" />
+            <SelectField field="Seconds_S" selected="False" type="Int32" size="4" />
+            <SelectField field="LapStartTime" selected="True" />
+            <SelectField field="Hours" selected="False" type="Int32" size="4" />
+            <SelectField field="Minutes" selected="False" type="Int32" size="4" />
+            <SelectField field="Seconds" selected="False" type="Int32" size="4" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="SessionTime1" selected="False" rename="Hours_S" type="Int32" size="4" />
+            <SelectField field="SessionTime2" selected="False" rename="Minutes_S" type="Int32" size="4" />
+            <SelectField field="SessionTime3" selected="False" rename="Seconds_S" type="Int32" size="4" />
+            <SelectField field="LapStartTime1" selected="False" />
+            <SelectField field="LapStartTime2" selected="False" />
+            <SelectField field="LapStartTime3" selected="False" />
+            <SelectField field="Sector1Time" selected="True" />
+            <SelectField field="Hours_T" selected="True" />
+            <SelectField field="Minutes_T" selected="True" />
+            <SelectField field="Seconds_T" selected="True" />
+            <SelectField field="Seconds_T_Sum" selected="True" />
+            <SelectField field="Sector1Time1" selected="True" rename="S1_Minutes" type="Int32" size="4" />
+            <SelectField field="Sector1Time2" selected="True" rename="S1_Seconds" type="Double" size="8" />
+            <SelectField field="Sector1Time3" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="Field_1" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3306" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LapTime" selected="True" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="Sector2SessionTime" selected="False" />
+            <SelectField field="Sector2SessionTime1" selected="False" rename="S2_Hours" type="Int32" size="4" />
+            <SelectField field="Sector2SessionTime2" selected="False" rename="S2_Minutes" type="Int32" size="4" />
+            <SelectField field="Sector2SessionTime3" selected="False" rename="S2_Seconds" type="Int32" size="4" />
+            <SelectField field="SessionTime" selected="True" />
+            <SelectField field="Hours_S" selected="False" type="Int32" size="4" />
+            <SelectField field="Minutes_S" selected="False" type="Int32" size="4" />
+            <SelectField field="Seconds_S" selected="False" type="Int32" size="4" />
+            <SelectField field="LapStartTime" selected="True" />
+            <SelectField field="Hours" selected="False" />
+            <SelectField field="Minutes" selected="False" />
+            <SelectField field="Seconds" selected="False" />
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Sector1SessionTime1" selected="False" rename="S1_Hours" />
+            <SelectField field="Sector1SessionTime2" selected="False" rename="S1_Minutes" />
+            <SelectField field="Sector1SessionTime3" selected="False" rename="S1_Seconds" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="SessionTime1" selected="False" rename="Hours_S" type="Int32" size="4" />
+            <SelectField field="SessionTime2" selected="False" rename="Minutes_S" type="Int32" size="4" />
+            <SelectField field="SessionTime3" selected="False" rename="Seconds_S" type="Int32" size="4" />
+            <SelectField field="LapStartTime1" selected="False" />
+            <SelectField field="LapStartTime2" selected="False" />
+            <SelectField field="LapStartTime3" selected="False" />
+            <SelectField field="Sector2Time" selected="True" />
+            <SelectField field="Hours_T" selected="True" />
+            <SelectField field="Minutes_T" selected="True" />
+            <SelectField field="Seconds_T" selected="True" />
+            <SelectField field="Seconds_T_Sum" selected="True" />
+            <SelectField field="Sector2Time1" selected="True" rename="S2_Minutes" type="Int32" size="4" />
+            <SelectField field="Sector2Time2" selected="True" rename="S2_Seconds" type="Double" size="8" />
+            <SelectField field="Sector2Time3" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="3306" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LapTime" selected="True" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="Sector3SessionTime" selected="False" />
+            <SelectField field="Sector3SessionTime1" selected="False" rename="S3_Hours" type="Int32" size="4" />
+            <SelectField field="Sector3SessionTime2" selected="False" rename="S3_Minutes" type="Int32" size="4" />
+            <SelectField field="Sector3SessionTime3" selected="False" rename="S3_Seconds" type="Int32" size="4" />
+            <SelectField field="SessionTime" selected="True" />
+            <SelectField field="Hours_S" selected="False" type="Int32" size="4" />
+            <SelectField field="Minutes_S" selected="False" type="Int32" size="4" />
+            <SelectField field="Seconds_S" selected="False" type="Int32" size="4" />
+            <SelectField field="LapStartTime" selected="False" />
+            <SelectField field="Hours" selected="False" />
+            <SelectField field="Minutes" selected="False" />
+            <SelectField field="Seconds" selected="False" />
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Sector1SessionTime1" selected="False" rename="S3_Hours" />
+            <SelectField field="Sector1SessionTime2" selected="False" rename="S1_Minutes" />
+            <SelectField field="Sector1SessionTime3" selected="False" rename="S1_Seconds" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="Hours_T" selected="True" />
+            <SelectField field="Minutes_T" selected="True" />
+            <SelectField field="Seconds_T" selected="True" />
+            <SelectField field="SessionTime1" selected="False" rename="Hours_S" type="Int32" size="4" />
+            <SelectField field="SessionTime2" selected="False" rename="Minutes_S" type="Int32" size="4" />
+            <SelectField field="SessionTime3" selected="False" rename="Seconds_S" type="Int32" size="4" />
+            <SelectField field="LapStartTime1" selected="False" />
+            <SelectField field="LapStartTime2" selected="False" />
+            <SelectField field="LapStartTime3" selected="False" />
+            <SelectField field="Sector3Time" selected="True" />
+            <SelectField field="Sector3Time1" selected="True" rename="S3_Minutes" type="Int32" size="4" />
+            <SelectField field="Sector3Time2" selected="True" rename="S3_Seconds" type="Int32" size="4" />
+            <SelectField field="Sector3Time3" selected="False" type="Double" size="8" />
+            <SelectField field="Seconds_T_Sum" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1854" y="54" width="132" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sector Time number are the time when the sector is completed</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="3894" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Sector_2</UpdateField_Name>
+          <CreateField_Name>Sector</CreateField_Name>
+          <CreateField_Type>V_WString</CreateField_Type>
+          <CreateField_Size>255</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if [Seconds_T_Sum]&lt;[S1_Seconds] then "Sector 1"
+elseif [Seconds_T_Sum]&lt;[S1_S2_Seconds] then "Sector 2"
+else "Sector 3"
+endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>if [Seconds_T_Sum]&lt;[S1_Seconds] then "Sector 1"
+elseif [Secon...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3666" y="138" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>We need to change data type of HH MM SS to enable comparison operations</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3882" y="222" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Here we put together sectors into one column comparing the total seconds for each sector</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2982" y="78" width="204" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Here we split the Session time into Hours, Minutes and seconds in order to later apply formulas to determine in witch sector each time point in session belongs to ( Sector 1, Sector 2 or Sector 3 of the track)</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1146" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LapTime" selected="True" size="255" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="SessionTime" selected="True" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="Sector" selected="True" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="Sector2Time" selected="True" />
+            <SelectField field="Sector1Time" selected="True" />
+            <SelectField field="Sector3Time" selected="True" />
+            <SelectField field="LapStartTime" selected="False" />
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="Sector1SessionTime" selected="False" size="255" />
+            <SelectField field="S1_Hours" selected="False" />
+            <SelectField field="S1_Minutes" selected="False" />
+            <SelectField field="S1_Seconds" selected="False" />
+            <SelectField field="Hours_S" selected="False" />
+            <SelectField field="Minutes_S" selected="False" />
+            <SelectField field="Seconds_S" selected="False" />
+            <SelectField field="Hours" selected="False" />
+            <SelectField field="Minutes" selected="False" />
+            <SelectField field="Seconds" selected="False" />
+            <SelectField field="Sector_2" selected="False" />
+            <SelectField field="Sector_3" selected="False" />
+            <SelectField field="Sector3SessionTime" selected="False" />
+            <SelectField field="Sector2SessionTime" selected="False" />
+            <SelectField field="Right_Time2" selected="False" />
+            <SelectField field="Right_Time" selected="False" />
+            <SelectField field="Hours_T" selected="False" />
+            <SelectField field="Minutes_T" selected="False" />
+            <SelectField field="Seconds_T" selected="False" />
+            <SelectField field="S2_Minutes" selected="False" />
+            <SelectField field="S2_Seconds" selected="False" />
+            <SelectField field="Seconds_T_Sum" selected="False" />
+            <SelectField field="S3_Minutes" selected="False" />
+            <SelectField field="S3_Seconds" selected="False" />
+            <SelectField field="S1_S2_Seconds" selected="False" />
+            <SelectField field="S1_S2_S3_Seconds" selected="False" />
+            <SelectField field="Input_#2_LapTime" selected="True" />
+            <SelectField field="Input_#2_LapStartTime" selected="True" />
+            <SelectField field="Input_#3_LapTime" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1242" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="SessionTime" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="SessionTime" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Date" selected="True" input="Right_" type="Date" size="10" />
+                <SelectField field="Left_LapNumber" selected="True" input="Left_" />
+                <SelectField field="Left_SessionTime" selected="True" input="Left_" type="V_WString" size="255" />
+                <SelectField field="Left_LapStartTime" selected="False" input="Left_" size="255" />
+                <SelectField field="Left_LapTime" selected="True" input="Left_" />
+                <SelectField field="Right_Driver" selected="True" input="Right_" size="255" />
+                <SelectField field="Left_Sector1Time" selected="True" input="Left_" size="255" />
+                <SelectField field="Left_Sector2Time" selected="True" input="Left_" size="255" />
+                <SelectField field="Left_Sector3Time" selected="True" input="Left_" size="255" />
+                <SelectField field="Left_Time" selected="True" input="Left_" size="255" />
+                <SelectField field="Right_Distance" selected="True" input="Right_" size="255" />
+                <SelectField field="Left_Sector" selected="True" input="Left_" />
+                <SelectField field="Right_Driver1" selected="False" rename="Driver" input="Right_" size="255" />
+                <SelectField field="Right_RPM" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Speed" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_nGear" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Throttle" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Brake" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_DRS" selected="True" input="Right_" size="255" />
+                <SelectField field="Left_Compound" selected="True" input="Left_" size="255" />
+                <SelectField field="Left_TyreLife" selected="True" input="Left_" size="255" />
+                <SelectField field="Left_FreshTyre" selected="True" input="Left_" size="255" />
+                <SelectField field="Right_DriverAhead" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_DistanceToDriverAhead" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_RelativeDistance" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_X" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Y" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Z" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Time" selected="False" rename="Right_Time" input="Right_" size="255" />
+                <SelectField field="Left_Field_1" selected="False" input="Left_" size="255" />
+                <SelectField field="Right_Field_1" selected="False" rename="Right_Field_1" input="Right_" size="255" />
+                <SelectField field="Right_SessionTime" selected="False" rename="Right_SessionTime" input="Right_" size="255" />
+                <SelectField field="Left_Input_#2_LapTime" selected="False" input="Left_" size="255" />
+                <SelectField field="Left_Input_#2_LapStartTime" selected="False" input="Left_" size="255" />
+                <SelectField field="Right_Source" selected="True" input="Right_" size="255" />
+                <SelectField field="Right_Status" selected="True" input="Right_" size="255" />
+                <SelectField field="Left_Input_#3_LapTime" selected="False" input="Left_" size="255" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="966" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([SessionTime],'0 day')" field="SessionTime" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[SessionTime = trimleft([SessionTime],'0 day')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1050" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([SessionTime],&quot;s :&quot;)" field="SessionTime" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[SessionTime = trimleft([SessionTime],"s :")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1350" y="462" width="168" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Fill values in LapStartTime and LapTime</Text>
+          <Font name="Arial" size="9.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1746" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">E:\CBS_3\Visual Analytics\Final\Data\Italian Grand Prix\_ALTERYX\practice1_tel_Sectors_HAM.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>practice1_tel_Sectors_HAM.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1146" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Driver1" selected="True" rename="Driver" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="654" y="210" width="168" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>LapStartTime should be the same with the Session time of the other file. That's where we join the tables</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="90" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Make sure that field values are unique because sometimes the API returns duplicate records</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1146" y="450" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select columns needed and Join sectors with telemetry</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1590" y="558" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;Practice 1&quot;" field="Session" size="1073741823" type="V_WString" />
+            <FormulaField expression="&quot;2021&quot;" field="Year" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Session = "Practice 1"
+Year = "2021"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1566" y="486" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add Session name column</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings>
+        <Position x="858" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges"><![CDATA[20
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1122" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>LapTime</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([LapTime]) THEN [Row-1:LapTime]
+ELSE [LapTime]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([LapTime]) THEN [Row-1:LapTime]
+ELSE [LapTime]
+ENDI...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1206" y="174" width="336" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Fill empty cells
+]]></Text>
+          <Font name="Arial" size="15.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1194" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>LapStartTime</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([LapStartTime]) THEN [Row-1:LapStartTime]
+ELSE [LapStartTime]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([LapStartTime]) THEN [Row-1:LapStartTime]
+ELSE [Lap...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1278" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Sector1Time</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([Sector1Time]) THEN [Row-1:Sector1Time]
+ELSE [Sector1Time]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([Sector1Time]) THEN [Row-1:Sector1Time]
+ELSE [Secto...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1362" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Sector2Time</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([Sector2Time]) THEN [Row-1:Sector2Time]
+ELSE [Sector2Time]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([Sector2Time]) THEN [Row-1:Sector2Time]
+ELSE [Secto...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1446" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Sector3Time</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([Sector3Time]) THEN [Row-1:Sector3Time]
+ELSE [Sector3Time]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([Sector3Time]) THEN [Row-1:Sector3Time]
+ELSE [Secto...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="2094" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Time</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Time</RootName>
+          <Delimeters value=":" />
+          <NumFields value="3" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1542" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Compound</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([Compound]) THEN [Row-1:Compound]
+ELSE [Compound]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([Compound]) THEN [Row-1:Compound]
+ELSE [Compound]
+E...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1626" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>TyreLife</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([TyreLife]) THEN [Row-1:TyreLife]
+ELSE [TyreLife]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([TyreLife]) THEN [Row-1:TyreLife]
+ELSE [TyreLife]
+E...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1722" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>FreshTyre</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Nearest</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[IF IsNull([FreshTyre]) THEN [Row-1:FreshTyre]
+ELSE [FreshTyre]
+ENDIF 
+	
+
+]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>IF IsNull([FreshTyre]) THEN [Row-1:FreshTyre]
+ELSE [FreshTyre...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1914" y="174" width="120" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Trim left to get rid of days and Split Sector times into HH MM SS for comparison</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings>
+        <Position x="1818" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Ranges">2+</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="SelectRecords.yxmc" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1794" y="210" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Drop the first row</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2922" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector1Time],'0 day')" field="Sector1Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sector1Time = trimleft([Sector1Time],'0 day')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3042" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector1Time],&quot;s :&quot;)" field="Sector1Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sector1Time = trimleft([Sector1Time],"s :")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2910" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector2Time],'0 day')" field="Sector2Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sector2Time = trimleft([Sector2Time],'0 day')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3054" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector2Time],&quot;s :&quot;)" field="Sector2Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sector2Time = trimleft([Sector2Time],"s :")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2922" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector3Time],'0 day')" field="Sector3Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sector3Time = trimleft([Sector3Time],'0 day')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="3054" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector3Time],&quot;s :&quot;)" field="Sector3Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+
+]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sector3Time = trimleft([Sector3Time],"s :")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1986" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector1Time],&quot;s :&quot;)" field="Sector1Time" size="254" type="V_String" />
+            <FormulaField expression="trimleft([Sector2Time],&quot;s :&quot;)" field="Sector2Time" size="254" type="V_String" />
+            <FormulaField expression="trimleft([Sector3Time],&quot;s :&quot;)" field="Sector3Time" size="254" type="V_String" />
+            <FormulaField expression="trimleft([Time],&quot;s :&quot;)" field="Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>Sector1Time = trimleft([Sector1Time],"s :")
+Sector2Time = trimleft([Sector2Time]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1902" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="trimleft([Sector1Time],'0 day')&#xA;" field="Sector1Time" size="254" type="V_String" />
+            <FormulaField expression="trimleft([Sector2Time],'0 day')" field="Sector2Time" size="254" type="V_String" />
+            <FormulaField expression="trimleft([Sector3Time],'0 day')" field="Sector3Time" size="254" type="V_String" />
+            <FormulaField expression="trimleft([Time],'0 day')" field="Time" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[
+]]></AnnotationText>
+          <DefaultAnnotationText>Sector1Time = trimleft([Sector1Time],'0 day')
+
+Sector2Time = trimleft([Sector2Ti...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2202" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="LapTime" selected="True" />
+            <SelectField field="LapStartTime" selected="True" />
+            <SelectField field="SessionTime" selected="True" />
+            <SelectField field="LapNumber" selected="True" />
+            <SelectField field="Sector1Time" selected="True" />
+            <SelectField field="Sector2Time" selected="True" />
+            <SelectField field="Sector3Time" selected="True" />
+            <SelectField field="Time" selected="True" />
+            <SelectField field="Time1" selected="True" rename="Hours_T" type="Int32" size="4" />
+            <SelectField field="Time2" selected="True" rename="Minutes_T" type="Int32" size="4" />
+            <SelectField field="Time3" selected="True" rename="Seconds_T" type="Double" size="8" />
+            <SelectField field="Compound" selected="True" />
+            <SelectField field="TyreLife" selected="True" />
+            <SelectField field="FreshTyre" selected="True" />
+            <SelectField field="Field_1" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="2346" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>SessionTime</UpdateField_Name>
+          <CreateField_Name>Seconds_T_Sum</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if [Minutes_T] = 0 then [Seconds_T]
+elseif  [Row-1:Seconds_T]&gt;[Seconds_T] then 59.957+[Seconds_T]
+else 59.951+[Seconds_T]
+endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if [Minutes_T] = 0 then [Seconds_T]
+elseif  [Row-1:Seconds_T]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="3462" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="SessionTime" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="SessionTime" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="SessionTime" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_LapNumber" selected="True" />
+                <SelectField field="Input_#1_SessionTime" selected="True" />
+                <SelectField field="Input_#1_Compound" selected="True" />
+                <SelectField field="Input_#1_TyreLife" selected="True" />
+                <SelectField field="Input_#1_FreshTyre" selected="True" />
+                <SelectField field="Input_#1_Time" selected="True" />
+                <SelectField field="Input_#1_Hours_T" selected="True" />
+                <SelectField field="Input_#1_Minutes_T" selected="True" />
+                <SelectField field="Input_#1_Seconds_T" selected="True" />
+                <SelectField field="Input_#1_Sector2Time" selected="True" />
+                <SelectField field="Input_#1_S2_Minutes" selected="True" />
+                <SelectField field="Input_#1_S2_Seconds" selected="True" />
+                <SelectField field="Input_#1_Seconds_T_Sum" selected="True" />
+                <SelectField field="Input_#2_LapNumber" selected="False" rename="Input_#2_LapNumber" />
+                <SelectField field="Input_#2_SessionTime" selected="False" rename="Input_#2_SessionTime" />
+                <SelectField field="Input_#2_Time" selected="False" rename="Input_#2_Time" />
+                <SelectField field="Input_#2_Compound" selected="False" rename="Input_#2_Compound" />
+                <SelectField field="Input_#2_TyreLife" selected="False" rename="Input_#2_TyreLife" />
+                <SelectField field="Input_#2_FreshTyre" selected="False" rename="Input_#2_FreshTyre" />
+                <SelectField field="Input_#2_Sector1Time" selected="True" />
+                <SelectField field="Input_#2_S1_Minutes" selected="True" />
+                <SelectField field="Input_#2_S1_Seconds" selected="True" />
+                <SelectField field="Input_#2_Hours_T" selected="False" rename="Input_#2_Hours_T" />
+                <SelectField field="Input_#2_Minutes_T" selected="False" rename="Input_#2_Minutes_T" />
+                <SelectField field="Input_#2_Seconds_T" selected="False" rename="Input_#2_Seconds_T" />
+                <SelectField field="Input_#2_Seconds_T_Sum" selected="False" rename="Input_#2_Seconds_T_Sum" />
+                <SelectField field="Input_#3_Sector3Time" selected="True" />
+                <SelectField field="Input_#3_S3_Minutes" selected="True" />
+                <SelectField field="Input_#3_S3_Seconds" selected="True" />
+                <SelectField field="Input_#3_LapNumber" selected="False" rename="Input_#3_LapNumber" />
+                <SelectField field="Input_#3_SessionTime" selected="False" rename="Input_#3_SessionTime" />
+                <SelectField field="Input_#3_Compound" selected="False" rename="Input_#3_Compound" />
+                <SelectField field="Input_#3_TyreLife" selected="False" rename="Input_#3_TyreLife" />
+                <SelectField field="Input_#3_FreshTyre" selected="False" rename="Input_#3_FreshTyre" />
+                <SelectField field="Input_#3_Time" selected="False" rename="Input_#3_Time" />
+                <SelectField field="Input_#3_Hours_T" selected="False" rename="Input_#3_Hours_T" />
+                <SelectField field="Input_#3_Minutes_T" selected="False" rename="Input_#3_Minutes_T" />
+                <SelectField field="Input_#3_Seconds_T" selected="False" rename="Input_#3_Seconds_T" />
+                <SelectField field="Input_#3_Seconds_T_Sum" selected="False" rename="Input_#3_Seconds_T_Sum" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="3750" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>LapNumber</UpdateField_Name>
+          <CreateField_Name>S1_S2_S3_Seconds</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[S1_Seconds]+[S2_Seconds]+[S3_Seconds]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[S1_Seconds]+[S2_Seconds]+[S3_Seconds]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="3594" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>LapNumber</UpdateField_Name>
+          <CreateField_Name>S1_S2_Seconds</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[S1_Seconds]+[S2_Seconds]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[S1_Seconds]+[S2_Seconds]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1230" y="642" width="100" height="40" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join Telemetry, tyre and sector data on Session Time</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Unique" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="56" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Join" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="100" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="87" Connection="Output" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="97" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="False">E:\CBS_3\Visual Analytics\alteryx\New folder</TempFiles>
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>P1_Sector_Telemetry_HAM</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
